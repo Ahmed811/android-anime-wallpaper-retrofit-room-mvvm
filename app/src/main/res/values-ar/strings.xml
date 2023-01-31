@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خلفيات انمي</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_rate">قيم التطبيق</string>
+    <string name="action_share">مشاركة التطبيق</string>
+    <string name="action_contact">اتصل بنا</string>
+    <string name="action_more">المزيد من التطبيقات</string>
+
+    <string name="failed_to_connect">فشل في الاتصال بالسيرفر</string>
+    <string name="retry">اعادة محاولة</string>
+    <string name="error">خطأ:</string>
+    <string name="successfully_deleted">تم ازالة الصورة بنحاح</string>
+    <string name="successfully_saved">تم حفظ الصورة بنحاح</string>
+    <string name="successfully_set_wallpaper">تم تطبيق الصورة بنحاح</string>
+    <string name="undo">الغاء</string>
+    <string name="home_or_lock">الشاشة الرئيسية او شاشة القفل</string>
+    <string name="set_wallpaper">تطبيق الخلفية علي الشاشة الرئيسية او شاشة القفل</string>
+    <string name="home_screen">الشاشة الرئيسئة</string>
+    <string name="lock_screen">شاشة القفل</string>
+    <string name="homescreen_and_lockscreen">الشاشة الرئيسية و شاشة القفل</string>
+    <string name="wait_to_download">انتظر حتي يبدأ التحميل....</string>
+    <string name="downloading">تحميل....</string>
+    <string name="error_during_download">خطأ اثناء التحميل</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="developer_email">khalilah304@gmail.com</string>
+    <string name="mail_title">هذه الرسالة بخصوص تطبيق خلفيات الانمي</string>
+    <string name="mail_message">هذه الرسالة بخصوص تطبيق خلفيات الانمي</string>
+    <string name="select_mail">اختار برنامج الميل</string>
+    <string name="notification_title">طبق كخلفية للهاتف</string>
+    <string name="notification_message">الان الوقت الصحيح لتغيير خلفية الهاتف</string>
+</resources>

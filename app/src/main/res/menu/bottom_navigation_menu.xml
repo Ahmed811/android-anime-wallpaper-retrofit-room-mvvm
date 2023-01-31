@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/animeWallpaperListFragment"
+    android:title="Girl"
+    android:icon="@drawable/girl3"/>
+    <item
+    android:id="@+id/popularWallpaperListFragment"
+    android:title="Boys"
+    android:icon="@drawable/boy"/>
+    <item
+    android:id="@+id/favotitiesFragment"
+    android:title="Favorites"
+    android:icon="@drawable/love"/>
+<!--    <item-->
+<!--    android:id="@+id/settingsFragment"-->
+<!--    android:title="Settings"-->
+<!--    android:icon="@drawable/ic_baseline_settings"/>-->
+</menu>

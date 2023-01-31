@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/animeWallpaperListFragment">
+
+    <fragment
+        android:id="@+id/animeWallpaperListFragment"
+        android:name="com.khalil.animewallpaper.ui.fragment.AnimeWallpaperListFragment"
+        android:label="fragment_anime_wallpaper_list"
+        tools:layout="@layout/fragment_anime_wallpaper_list" >
+        <action
+            android:id="@+id/action_animeWallpaperListFragment_to_wallpaperViewFragment"
+            app:destination="@id/wallpaperViewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/popularWallpaperListFragment"
+        android:name="com.khalil.animewallpaper.ui.fragment.PopularWallpaperListFragment"
+        android:label="fragment_popular_wallpaper_list"
+        tools:layout="@layout/fragment_popular_wallpaper_list" >
+        <action
+            android:id="@+id/action_popularWallpaperListFragment_to_wallpaperViewFragment"
+            app:destination="@id/wallpaperViewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favotitiesFragment"
+        android:name="com.khalil.animewallpaper.ui.fragment.FavotitiesFragment"
+        android:label="fragment_favotities"
+        tools:layout="@layout/fragment_favotities" >
+        <action
+            android:id="@+id/action_favotitiesFragment_to_wallpaperViewFragment"
+            app:destination="@id/wallpaperViewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/wallpaperViewFragment"
+        android:name="com.khalil.animewallpaper.ui.fragment.WallpaperViewFragment"
+        android:label="fragment_wallpaper_view"
+        tools:layout="@layout/fragment_wallpaper_view" >
+        <argument
+            android:name="wallpaperUrl"
+            app:argType="string" />
+    </fragment>
+</navigation>

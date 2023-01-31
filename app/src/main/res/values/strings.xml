@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Anime Wallpapers HD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="action_rate">Rate App</string>
+    <string name="action_share">Share</string>
+    <string name="action_contact">Contact Us</string>
+    <string name="action_more">More App</string>
+    <string name="ap_id_test">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ap_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="retry">Retry</string>
+    <string name="error">An error occurred:</string>
+    <string name="successfully_deleted">Successfully deleted wallpaper</string>
+    <string name="successfully_saved">Wallpaper saved successfully</string>
+    <string name="successfully_set_wallpaper">Wallpaper set successfully</string>
+    <string name="undo">Undo</string>
+    <string name="home_or_lock">HomeScreen Or LockScreen</string>
+    <string name="set_wallpaper">set Wallpaper as HomeScreen Or LockScreen</string>
+    <string name="home_screen">HomeScreen</string>
+    <string name="lock_screen">LockScreen</string>
+    <string name="homescreen_and_lockscreen">Home and Lock Screen</string>
+    <string name="wait_to_download">wait to download....</string>
+    <string name="downloading">downloading....</string>
+    <string name="error_during_download">Error during download</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="developer_email">khalilah304@gmail.com</string>
+    <string name="mail_title">anime 4k wallpaper</string>
+    <string name="mail_message">this is about anime wallpaper</string>
+    <string name="select_mail">Select email</string>
+    <string name="notification_title">set wallpaper</string>
+    <string name="notification_message">now the right time to change your mobile wallpaper</string>
+</resources>
